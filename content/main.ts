@@ -5,7 +5,7 @@ export const attributes = {
       link: '/#portfolio',
       text: 'Portfolio',
     },
-    heading: "I'm Paco Cu, and I create",
+    heading: "I'm Lukas Richter, and I create",
     image: '/img/hero.jpeg',
     secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
     social: {
@@ -14,31 +14,31 @@ export const attributes = {
       linkedin: { link: 'https://linkedin.com', show: true },
     },
     typed: [
-      { text: 'fast websites.' },
-      { text: 'beautiful logos.' },
+      { text: 'stunning websites.' },
+      { text: 'fast backends.' },
       { text: 'great experiences.' },
     ],
   },
   about: {
     heading: 'Who am I?',
     image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    text: "I am a development engineer originally from Cologne (Germany) currently living in Vienna (Austria). After finishing my bachelor's degree in electrical engineering at the Hochschule Bonn-Rhein-Sieg University of Applied Sciences in 2017, I worked in the automotive industry as a function owner for advanced driver assistance systems. In parallel I pursued my passion for coding at the Trier University of Applied Sciences graduating with a master's degree in computer science in 2023. Right now I am learning web development with UpLeveled in Vienna.\n",
   },
   features: [
     {
+      icon: 'xml',
+      text: 'Creating stunning interactive websites.\n',
+      title: 'Frontend Web Development',
+    },
+    {
       icon: 'monitor-screenshot',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'UI/UX',
+      text: 'Setting up servers, databases and much more. \n',
+      title: 'Backend Web Development',
     },
     {
       icon: 'draw',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Logo Design',
-    },
-    {
-      icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Web Development',
+      text: 'Microcontroller programming and layout of electrical architectures.\n',
+      title: 'Microelectronic System Design',
     },
   ],
   portfolio: {
